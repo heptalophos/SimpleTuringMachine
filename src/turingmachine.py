@@ -20,8 +20,6 @@ class TuringMachine:
         }   
 
     def print_state(self, state, tape, head):
-        # print(state.rjust(4) + ": " + "".join(tape))
-        # print("      " + " " * head + "^")
         return state.rjust(4) + ": " + "".join(tape) + "\n" + "      " + " " * head + "^"
 
     def simulate(self, instructions, steps):
