@@ -5,7 +5,7 @@
 
 """
 
-class TuringMachine:
+class SimpleTuringMachine:
     
     tape = []
     state_table = {}
