@@ -1,1 +1,2 @@
-A simple Turing Machine 
+# SimpleTuringMachine
+A simple Turing Machine in python
